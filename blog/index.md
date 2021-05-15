@@ -2,7 +2,7 @@
 home: true
 heroImage: /assets/images/naruto.jpg
 heroText: 清水仙君
-tagline: 做个俗人，不服管教，好逸恶劳，心安理得
+tagline: 做个俗人232312，不服管教，好逸恶劳，心安理得
 actionText: html →
 actionLink: /html/
 # features:
