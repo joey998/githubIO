@@ -1,10 +1,10 @@
 module.exports = {
   head: [
-    ['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/joey998/imgStore/main/img/naruto.jpg' }],
+    ['link', { rel: 'icon', href: '/assets/images/naruto.jpg' }],
   ],
   title: "铭铭可可",
   themeConfig: {
-    logo: "https://raw.githubusercontent.com/joey998/imgStore/main/img/naruto.jpg",
+    logo: "/assets/images/naruto.jpg",
     nav: [
       { text: "首页", link: "/" },
       {
