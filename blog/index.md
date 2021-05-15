@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /assets/images/naruto.jpg
+heroImage: https://raw.githubusercontent.com/joey998/imgStore/main/img/naruto.jpg
 heroText: 清水仙君
 tagline: 做个俗人，不服管教，好逸恶劳，心安理得
 actionText: html →
