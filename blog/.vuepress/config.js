@@ -33,15 +33,12 @@ module.exports = {
     sidebar: {
       "/html/": [
         "",
-        {
-          title: "html5新增",
-          children: [
-            ["video", "video标签"]
-          ]
-        }
+        "autocapitalize"
       ],
       "/css/": [
-        ""
+        "",
+        "flex",
+        "grid"
       ],
       "/javascript/": [
         "",
@@ -54,8 +51,14 @@ module.exports = {
         {
           title: "webpack",
           children: [
-            "webpack-browserlist",
-            "webpack-wds"
+            "webpack使用说明",
+            "webpack-wds",
+          ]
+        },
+        {
+          title: 'eslint',
+          children: [
+            "eslint使用说明"
           ]
         }
       ],
