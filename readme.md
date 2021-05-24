@@ -1,0 +1,3 @@
+## 使用deploy部署
+因为部署是将生成的dist文件夹强制git push到了github以及gitee的对应repo，
+所以讲当前机器的公钥放github以及gitee是必须的

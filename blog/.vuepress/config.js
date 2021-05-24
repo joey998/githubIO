@@ -1,13 +1,13 @@
 module.exports = {
   head: [
-    ['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/joey998/imgStore/main/img/naruto.jpg' }],
+    ['link', { rel: 'icon', href: '/assets/images/naruto.jpg' }],
   ],
   title: "铭铭可可",
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
-    logo: "https://raw.githubusercontent.com/joey998/imgStore/main/img/naruto.jpg",
+    logo: "/assets/images/naruto.jpg",
     nav: [
       { text: "首页", link: "/" },
       {
@@ -36,15 +36,12 @@ module.exports = {
     sidebar: {
       "/html/": [
         "",
-        {
-          title: "html5新增",
-          children: [
-            ["video", "video标签"]
-          ]
-        }
+        "autocapitalize"
       ],
       "/css/": [
-        ""
+        "",
+        "flex",
+        "grid"
       ],
       "/javascript/": [
         "",
@@ -57,8 +54,14 @@ module.exports = {
         {
           title: "webpack",
           children: [
-            "webpack-browserlist",
-            "webpack-wds"
+            "webpack使用说明",
+            "webpack-wds",
+          ]
+        },
+        {
+          title: 'eslint',
+          children: [
+            "eslint使用说明"
           ]
         }
       ],
