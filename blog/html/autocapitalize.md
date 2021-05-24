@@ -14,7 +14,7 @@ characters: 所有的字母都默认为大写。
 比如当autocapitalize="characters"时候，掉起键盘以及每输入一个字符都会改成大写键盘（可以手动调成小写键盘，小写输入的input框的值也是小写），相当于每一次都帮你点击了大写按钮。
 
 下面还有最新的语音识别，贼吊，需要使用静态服务器打开页面
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>

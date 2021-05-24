@@ -19,7 +19,7 @@ Setting里面写的是共享配置，
 
 .eslintignore 类似.gitignore，比它更加严格，使用参数--ignore-path 可以指定ignore文件，如eslint --ignore-path .gitignore file.js
 
-```
+```js
 module.exports = {
   env: {
     browser: true,  //使用browser的规则
