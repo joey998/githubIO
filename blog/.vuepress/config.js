@@ -3,6 +3,9 @@ module.exports = {
     ['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/joey998/imgStore/main/img/naruto.jpg' }],
   ],
   title: "铭铭可可",
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     logo: "https://raw.githubusercontent.com/joey998/imgStore/main/img/naruto.jpg",
     nav: [
